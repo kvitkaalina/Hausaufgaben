@@ -22,7 +22,7 @@ function hasExpensiveItem(arr) {
     return arr.some(items => items.price > 50 )
     
 }
-console.log(hasExpensiveItem);
+console.log(hasExpensiveItem(object));
 
 // У вас есть массив объектов, представляющих товары с их названиями, категориями и ценами.
 
